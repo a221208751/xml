@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <restaurante>
     <nombres>
-        <Gofres_Belgas PrecioEuros = "5.95"
+        <Gofres_Belgas PrecioEuros = "5.95 "
                       Descripción = "Dos de nuestros famosos Gofres belgas con abundante sirope"
                       Calorias = "650">
         </Gofres_Belgas>
