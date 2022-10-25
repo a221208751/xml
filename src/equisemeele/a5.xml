@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Arboles>
+    <Nombre>
+        <Acer_monspessulanum NombreComún= "Arce de Montpellier, Arce menor"
+                             Vegetación= "Caducifolio"
+                             Altura = "De 6 a 10 metros"
+                             FormaYEstructura = "Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante"
+                             ColorEnPrimavera = "Haz verde brillante, envés verde blanquecino"
+                             ResistenciaALasHeladas = "Heladas fuertes (hasta -15ºC)">
+        </Acer_monspessulanum>
+        <Olea_europea NombreComún= "Olivo"
+                      Vegetación= "Perenne"
+                      Altura = "De 8 a 15 metros"
+                      FormaYEstructura = "Copa irregular. Tronco principal irregular con bifurcaciones.">
+        </Olea_europea>
+        <Ramaje_tortuoso ColorEnPrimavera = " Haz verde oscuro, envés verde plateado"
+                         ResistenciaALasHeladas = "Heladas fuertes (hasta -10ºC)">
+        </Ramaje_tortuoso>
+        <Platanus_orientalis NombreComún= "Platano"
+                             Vegetación= "Caducifolio"
+                             Altura = "De 20 a 25 metros"
+                             FormaYEstructura = "Copa ovoidal. Tronco principal recto. Ramaje expandido"
+                             ColorEnPrimavera = "Haz verde medio, enves verde claro"
+                             ColorEnOtoño = "Ocre"
+                             ResistenciaALasHeladas = "Heladas fuertes (hasta -20ºC)">
+        </Platanus_orientalis>
+        <Platanus_orientalis NombreComún= "Encina"
+                             Vegetación= "Perenne"
+                             Altura = "En torno a 25 metros"
+                             FormaYEstructura = "Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso"
+                             ColorEnPrimavera = "Plateado en hojas jóvenes. En hojasantiguas, haz verde oscuro, envés plateado"
+                             ResistenciaALasHeladas = "Heladas fuertes (hasta -15ºC)">
+        </Platanus_orientalis>
+    </Nombre>
+</Arboles>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CDs>
+    <titulo>
+        <Still_Got_The_Bus Artista = "Gary Moore"
+                           Pais = "UK"
+                           CompañiaDiscografica = "Virgin Records"
+                           Precio = "10.20"
+                           AñoPublicacion = "1990">
+        </Still_Got_The_Bus>
+        <One_Night_Only Artista = "Bee Gees"
+                        Pais = "UK"
+                        CompañiaDiscografica = "Polydor"
+                        Precio = "10.90"
+                        AñoPublicacion = "1998">
+        </One_Night_Only>
+        <When_A_Man_Loves_A_Woman Artista = "Percy Sledge"
+                                  Pais = "USA"
+                                  CompañiaDiscografica = "Atlantic"
+                                  Precio = "8.70"
+                                  AñoPublicacion = "1987">
+        </When_A_Man_Loves_A_Woman>
+        <Big_Willie_Style Artista = "Will Smith"
+                          Pais = "USA"
+                          CompañiaDiscografica = "Columbia"
+                          Precio = "9.90"
+                          AñoPublicacion = "1997">
+        </Big_Willie_Style>
+        <La_Cancion_De_Juan_Perro Artista = "Radio Futura"
+                                  Pais = "España"
+                                  CompañiaDiscografica = "Sony Music-Ariola"
+                                  Precio = "9.90"
+                                  AñoPublicacion = "1987">
+        </La_Cancion_De_Juan_Perro>
+        <The_Dock_Of_The_Bay Artista = "Otis Redding"
+                             Pais = "USA"
+                             CompañiaDiscografica = "Atlantic"
+                             Precio = "7.90"
+                             AñoPublicacion = "1987">
+        </The_Dock_Of_The_Bay>
+    </titulo>
+</CDs>
