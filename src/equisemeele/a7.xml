@@ -1,3 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <empresa>
-
+    <Business_Contact_Information>
+            <Business_name> = nombre></Business_name>
+            <Street_address> = direccion></Street_address>
+            <City> = ciudad ></City>
+            <State> = estado ></State>
+            <Zip_Code> = codigo_postal ></Zip_Code>
+    </Business_Contact_Information>
+    <Bill_to>
+          <Client_name> = nombre </Client_name>
+          <Street_address> = direccion </Street_address>
+          <City> = ciudad </City>
+          <State> = estado </State>
+          <Zip_Code> = codigo_postal </Zip_Code>
+    </Bill_to>
+    <Ship_to>
+        <Client_name> = nombre </Client_name>
+        <Street_address> = direccion </Street_address>
+        <City> = ciudad </City>
+        <State> = estado </State>
+        <Zip_Code> = codigo_postal </Zip_Code>
+    </Ship_to>
+    <Invoice_details>
+        <Invoice_Number> numero</Invoice_Number>
+        <Date> fecha </Date>
+        <Terms_of_Payment> pago </Terms_of_Payment>
+    </Invoice_details>
+    <Producto_Servicio>
+        <Description> = descripcion </Description>
+        <Quantity_Hours> = cantidad </Quantity_Hours>
+        <Rate> = tarifa </Rate>
+        <Amount> = monto </Amount>
+    </Producto_Servicio>
+    <Customer_Message> Hello! Thank you for your purchase.
+    Please return this invoice with payment.
+    Thanks! </Customer_Message>
+    <Checkout>
+        <Subtotal> = subtotal </Subtotal>
+        <Sales_tax> = iva </Sales_tax>
+        <Shipping> = envio </Shipping>
+        <Total> = total </Total>
+    </Checkout>
 </empresa>

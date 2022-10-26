@@ -1,3 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <comparacion>
+    <documento>
+        <p>Mi Primer <destacar
+                importancia=1>documento <!-->-->
+            XML</destacar></p]
+    <p>Comienza con la etiqueta
+        <documento&gt;</p><p>
+    A continuacion colocamos un
+    elemento sin contenido</p>
+    <imagen fichero="imagen.gif"></documento> <!--imagen es abierto y documento cerrado, es decir no coinciden>-->
 
+    <libros>
+        <!--libros nunca es cerrado>-->
+        <libro id="quijote">
+            <titulo>El Quijote</titulo>
+            <!--El error aquí es autor nunca se cierra, es decir nunca vemos el </autor, además de que nombre se repite>-->
+            <autor nombre=cervantes
+                   nombre=cervantes>
+            <descripcion>Es el m<ejor libro de
+                                      cervantes.
+                <!--El error aquí se encuentra en que hay un "<" en medio de los datos>-->
+            </descripcion>
+        </libro]
+                <!--No existe razon del ]>-->
+    </Libros>
+    <!--Libros nunca es abierto>-->
+
+    <!--CORECCION-->
+
+    <documento>
+        <p>Mi Primer <destacar
+                importancia= 1>documento
+            XML</destacar></p>
+    <p>Comienza con la etiqueta</p>
+    <p>A continuacion colocamos un
+        elemento sin contenido</p>
+    <imagen fichero="imagen.gif"></imagen>
+    </documento>
+
+    <Libros>
+        <libro id="quijote">
+            <titulo>El Quijote</titulo>
+            <!--f-->
+            <autor nombre= "cervantes">
+
+            </autor>
+            <descripcion>Es el mejor libro de
+                                      cervantes.
+            </descripcion>
+        </libro>
+    </Libros>
 </comparacion>
