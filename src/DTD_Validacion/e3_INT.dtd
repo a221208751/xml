@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE informe [
+        <!ELEMENT informe (titulo, Informe_General_De_Ventas)?>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT Informe_General_De_Ventas (Descripcion, Fecha_Del_Informe, Region)>
+        <!ELEMENT Descripcion (#PCDATA)>
+        <!ELEMENT Fecha_Del_Informe (#PCDATA)?>
+        <!ELEMENT Region (Trimestre)>
+        <!ELEMENT Trimestre (Libros_Vendidos)>
+        <!ELEMENT Libros_Vendidos (Norte, Centro, Sur)>
+        <!ELEMENT Norte (primero, segundo, tercero, cuarto)?>
+        <!ELEMENT primero (#PCDATA)>
+        <!ELEMENT segundo (#PCDATA)>
+        <!ELEMENT tercero (#PCDATA)>
+        <!ELEMENT cuarto (#PCDATA)>
+        <!ELEMENT Centro (primero, segundo, tercero, cuarto)?>
+        <!ELEMENT primero (#PCDATA)>
+        <!ELEMENT segundo (#PCDATA)>
+        <!ELEMENT tercero (#PCDATA)>
+        <!ELEMENT cuarto (#PCDATA)>
+        <!ELEMENT Sur (primero, segundo, tercero, cuarto)?>
+        <!ELEMENT primero (#PCDATA)>
+        <!ELEMENT segundo (#PCDATA)>
+        <!ELEMENT tercero (#PCDATA)>
+        <!ELEMENT cuarto (#PCDATA)>
+        ]>
+
+<informe>
+    <titulo> Ediciones Aranda </titulo>
+    <Informe_General_De_Ventas>
+        <Descripcion> Informe de ventas para las regiones Norte, Centro y Sur </Descripcion>
+        <Fecha_Del_Informe> 30/09/2021 </Fecha_Del_Informe>
+        <Region>
+            <Trimestre>
+                <Libros_Vendidos>
+                    <Norte>
+                        <primero> 24000 </primero>
+                        <segundo> 38600 </segundo>
+                        <tercero> NO_INFO </tercero>
+                        <cuarto> NO_INFO </cuarto>
+                    </Norte>
+                    <Centro>
+                        <primero> NO_INFO </primero>
+                        <segundo> 16080 </segundo>
+                        <tercero> 25000 </tercero>
+                        <cuarto> 29000 </cuarto>
+                    </Centro>
+                    <Sur>
+                        <primero> 27000 </primero>
+                        <segundo> 31400 </segundo>
+                        <tercero> 40100 </tercero>
+                        <cuarto> 30000 </cuarto>
+                    </Sur>
+                </Libros_Vendidos>
+            </Trimestre>
+        </Region>
+    </Informe_General_De_Ventas>
+</informe>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE LIGAbbva [
+        <!ELEMENT LIGAbbva (equipo1, equipo2, marcador, fecha_minuto, gol_jugador_minuto)>
+        <!ELEMENT equipo1 (#PCDATA)>
+        <!ELEMENT equipo2 (#PCDATA)>
+        <!ELEMENT marcador (#PCDATA)>
+        <!ELEMENT fecha_minuto (#PCDATA)>
+        <!ELEMENT gol_jugador_minuto (#PCDATA)>
+        ]>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE informe SYSTEM "e3_INT.dtd">
+<informe>
+    <titulo> Ediciones Aranda </titulo>
+    <Informe_General_De_Ventas>
+        <Descripcion> Informe de ventas para las regiones Norte, Centro y Sur </Descripcion>
+        <Fecha_Del_Informe> 30/09/2021 </Fecha_Del_Informe>
+        <Region>
+            <Trimestre>
+                <Libros_Vendidos>
+                    <Norte>
+                        <primero> 24000 </primero>
+                        <segundo> 38600 </segundo>
+                        <tercero> NO_INFO </tercero>
+                        <cuarto> NO_INFO </cuarto>
+                    </Norte>
+                    <Centro>
+                        <primero> NO_INFO </primero>
+                        <segundo> 16080 </segundo>
+                        <tercero> 25000 </tercero>
+                        <cuarto> 29000 </cuarto>
+                    </Centro>
+                    <Sur>
+                        <primero> 27000 </primero>
+                        <segundo> 31400 </segundo>
+                        <tercero> 40100 </tercero>
+                        <cuarto> 30000 </cuarto>
+                    </Sur>
+                </Libros_Vendidos>
+            </Trimestre>
+        </Region>
+    </Informe_General_De_Ventas>
+</informe>
